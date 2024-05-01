@@ -14,7 +14,7 @@ y데이터 = data['admit'].values #Y데이터를 생성 y = 입학 여부(0,1)
 for i, rows in data.iterrows(): #반복문
     x데이터.append([rows['gre'], rows['gpa'], rows['rank']]) #반복적으로 데이터들을 삽입해주는 코드
 
-model = tf.keras.models.Sequential([ # 순차적인 모델을 정의
+model = tf.keras.models.Sequential([ # Sequential을 쓰면 신경만 레이어들을 쉽게 만들어줌
     tf.keras.layers.LSTM(64, input_shape=(None, 3)),  # LSTM 층 추가
     tf.keras.layers.Dense(128, activation='tanh'), #Dense 층 추가 = tanh로 계산
     tf.keras.layers.Dense(1, activation='sigmoid'), #Dense 층 추가 = sigmoid로 계산
