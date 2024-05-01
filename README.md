@@ -7,10 +7,10 @@
 ### 단어 암기 중
 
 ## 3. LSTM 을 이용한 간단한 예측 코드 공부 중
-### lstm의 구조
+### lstm의 구조 이해
 ![2](https://github.com/Sungmyunghoon/2024-05-02/assets/112747810/19662a3b-ec1d-4b1c-acb9-a2f903d647ec)
 
-### 1. 수학적 요쇼가 필요 => LSTM의 게이트는 'tanh' , 'sigmoid' 활성화 함수를 사용하여 정보의 중요도를 제어
+### 1. 수학적 특징들을 이해 => LSTM의 게이트는 'tanh' , 'sigmoid' 활성화 함수를 사용하여 정보의 중요도를 제어
 #### tanh :  모든 실수 범위 내의 입력값을 -1 ~ 1 사이의 범위로 압축
 ![image](https://github.com/Sungmyunghoon/2024-05-02/assets/112747810/a3177610-84ca-4c1b-89a8-290bb68af2ec)
 #### sigmoid :  0과 1 사이의 값을 출력
