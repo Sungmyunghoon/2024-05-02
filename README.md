@@ -11,6 +11,6 @@
 #### tanh :  tanh는 모든 실수 범위 내의 입력값을 -1 ~ 1 사이의 범위로 압축
 ![image](https://github.com/Sungmyunghoon/2024-05-02/assets/112747810/a3177610-84ca-4c1b-89a8-290bb68af2ec)
 #### sigmoid : 
-![2](https://github.com/Sungmyunghoon/2024-05-02/assets/112747810/19662a3b-ec1d-4b1c-acb9-a2f903d647ec)
+
 ### 2. LSTM인 이유?? => 기존 RNN 모델의 한계 : 단기 기억에 강하므로 장기 의존 관계를 학습하는 데 어려움
 ### 3. 
