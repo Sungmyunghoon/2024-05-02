@@ -29,5 +29,5 @@ x데이터 = np.expand_dims(x데이터, axis=1)
 model.fit(x데이터, np.array(y데이터), epochs=1000) # 모델을 epochs 만큼 학습
 
 # 예측
-예측값 = model.predict(np.array([[[610, 3.20, 2]]])) #모델 예측
+예측값 = model.predict(np.array([[[610, 3.20, 2]]])) #모델 예측 모델 = [토익 610점 , 학점 3.20 , 등급이 2등 정도 되는 대학교]
 print(예측값)
